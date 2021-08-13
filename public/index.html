@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draw CAD by pzx</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <script type="module" src="geoFac.js"></script>
+    <script type="module" src="sketch.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Draw Lines from JSON File</h1>
+    </header>
+    <!-- <canvas id="webgl"></canvas> -->
+    <!-- 用canvas 不能实现 用 div 可以实现 不知道为什么 
+    我看网上说 webglrenderer.domElement的返回对象就是一个canvas 可能与此有关 -->
+    <div id="canvas" class="webgl"></div> 
+    <button id="refresh">Refresh!</button>
+    <button id="refresh2">Refresh Gunan Street!</button>
+    <footer>Powered by pzx.</footer>
+    
+</body>
+</html>
+

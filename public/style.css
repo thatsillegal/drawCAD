@@ -1,0 +1,16 @@
+*{
+    position:relative;
+    padding:0
+}
+
+body{
+    height:100vh;
+    background-color: silver;
+}
+
+
+.webgl{
+    background-color: white;
+    height: 500px;
+    width:500px;
+}
